@@ -8,21 +8,17 @@ The `prompt_catalog.json` file is an automatically generated catalog that provid
 
 ## File Statistics
 
-- **Total prompts cataloged**: 410
+- **Total prompts cataloged**: 405
 - **Total tokens**: 2,660,614
-- **Last generated**: 2026-07-23T02:29:24.207794
-
-## Structure
-
-The JSON file contains two main sections:
+5.810583
+ains two main sections:
 
 ### 1. Metadata Section
 
 ```json
 {
   "metadata": {
-    "generated_at": "2026-07-23T02:29:24.207794",
-    "total_files": 410,
+    "total_files": 405,
     "total_tokens": 2660614,
     "categories": { ... },
     "providers": { ... }
@@ -36,7 +32,7 @@ The JSON file contains two main sections:
 |----------|-------|-------------|
 | `skill_definition` | 126 | Claude Code bundled skills |
 | `general_assistant` | 55 | General-purpose AI assistants |
-| `system_prompt` | 41 | Core system prompts |
+| `system_prompt` | 37 | Core system prompts |
 | `legacy_prompt` | 36 | Older/deprecated prompts |
 | `coding_assistant` | 34 | Code generation/editing assistants |
 | `official_model_prompt` | 34 | Official published prompts |
@@ -44,8 +40,8 @@ The JSON file contains two main sections:
 | `slash_command` | 9 | Claude Code slash commands |
 | `injected_reminder` | 8 | Runtime-injected instructions |
 | `research_assistant` | 8 | Research-focused assistants |
-| `documentation` | 7 | Documentation/metadata files |
 | `api_prompt` | 7 | API-specific prompts |
+| `documentation` | 6 | Documentation/metadata files |
 | `document_assistant` | 6 | Document processing assistants |
 | `mcp_server` | 5 | Model Context Protocol servers |
 | `personality_prompt` | 5 | Personality/role configurations |

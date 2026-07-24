@@ -1,53 +1,52 @@
 {
   "metadata": {
-    "generated_at": "2026-07-23T02:29:24.207794",
-    "total_files": 410,
+    "total_files": 405,
     "total_tokens": 2660614,
     "categories": {
-      "skill_definition": 126,
-      "general_assistant": 55,
-      "system_prompt": 41,
-      "legacy_prompt": 36,
-      "coding_assistant": 34,
-      "official_model_prompt": 34,
+      "system_prompt": 37,
       "agent_prompt": 11,
-      "slash_command": 9,
+      "coding_assistant": 34,
+      "skill_definition": 126,
       "injected_reminder": 8,
-      "research_assistant": 8,
-      "documentation": 7,
-      "api_prompt": 7,
-      "document_assistant": 6,
       "mcp_server": 5,
-      "personality_prompt": 5,
-      "raw_capture": 4,
-      "voice_assistant": 4,
-      "design_assistant": 3,
-      "browser_assistant": 3,
-      "image_assistant": 2,
       "tool_prompt": 1,
+      "documentation": 6,
+      "design_assistant": 3,
+      "slash_command": 9,
+      "document_assistant": 6,
+      "general_assistant": 55,
+      "browser_assistant": 3,
+      "official_model_prompt": 34,
+      "legacy_prompt": 36,
+      "raw_capture": 4,
+      "image_assistant": 2,
+      "api_prompt": 7,
+      "research_assistant": 8,
+      "voice_assistant": 4,
+      "personality_prompt": 5,
       "memory_assistant": 1
     },
     "providers": {
       "anthropic": 240,
-      "openai": 84,
-      "misc": 24,
-      "google": 22,
-      "xai": 11,
-      "unknown": 5,
-      "microsoft": 5,
-      "perplexity": 5,
-      "kimi": 2,
-      "meta": 2,
-      "mistral": 2,
-      "github_meta": 1,
       "cursor": 1,
       "deepseek": 1,
       "glm": 1,
+      "google": 22,
+      "kimi": 2,
+      "meta": 2,
+      "microsoft": 5,
+      "misc": 24,
+      "mistral": 2,
       "notion": 1,
+      "openai": 84,
       "opencode": 1,
+      "perplexity": 5,
       "pi": 1,
-      "qwen": 1
-    }
+      "qwen": 1,
+      "unknown": 1,
+      "xai": 11
+    },
+    "last_updated": "2026-07-25"
   },
   "prompts": [
     {
@@ -7937,50 +7936,6 @@
       "output_format_hint": ""
     },
     {
-      "id": "CATALOG_USAGE_GUIDE.md",
-      "title": "📚 PROMPT CATALOG USAGE GUIDE",
-      "provider": "unknown",
-      "category": "system_prompt",
-      "subcategory": "general",
-      "persona": "",
-      "tools_or_integrations": [
-        "integrations"
-      ],
-      "guardrails_and_constraints": [],
-      "best_fit_scenarios": [
-        "General assistant"
-      ],
-      "is_documentation": false,
-      "size_bytes": 9472,
-      "size_tokens": 2368,
-      "source_hash": "CB3075000FF107D7C4222156552D7455",
-      "confidence": "medium",
-      "purpose_summary": "3. **`FINAL_CATALOG_SUMMARY.md`** - Human-readable summary 4. **`representative_analyses.json`** - Detailed analysis of 22 files 5. **`file_metadata.json`** - Basic metadata for all files ### **Catalog Statistics**",
-      "key_capabilities": [],
-      "output_format_hint": ""
-    },
-    {
-      "id": "complete_prompt_catalog_summary.md",
-      "title": "Complete Prompt Catalog Summary",
-      "provider": "unknown",
-      "category": "system_prompt",
-      "subcategory": "general",
-      "persona": "- **OpenAI Codex**: 30+ files (GPT-5.x, personalities, modes)",
-      "tools_or_integrations": [],
-      "guardrails_and_constraints": [],
-      "best_fit_scenarios": [
-        "General assistant"
-      ],
-      "is_documentation": false,
-      "size_bytes": 7157,
-      "size_tokens": 1789,
-      "source_hash": "87111F1A5A6235F8C5534403924192E6",
-      "confidence": "medium",
-      "purpose_summary": "# Complete Prompt Catalog Summary This document provides a comprehensive overview of ALL system prompts in the collection, organized by category and provider. ## Catalog Statistics",
-      "key_capabilities": [],
-      "output_format_hint": ""
-    },
-    {
       "id": "Cursor/cursor.md",
       "title": "Cursor",
       "provider": "cursor",
@@ -8053,31 +8008,6 @@
       "source_hash": "5CB2DE69651FAB415D6A281ED09804EF",
       "confidence": "high",
       "purpose_summary": "\"description\": \"Web search. Split multiple queries with '||'.\", \"parameters\": { \"type\": \"object\", \"properties\": { \"queries\": {",
-      "key_capabilities": [],
-      "output_format_hint": ""
-    },
-    {
-      "id": "FINAL_CATALOG_SUMMARY.md",
-      "title": "FINAL COMPREHENSIVE PROMPT CATALOG",
-      "provider": "unknown",
-      "category": "system_prompt",
-      "subcategory": "general",
-      "persona": "| **Files with persona** | 16 | 72.7% |",
-      "tools_or_integrations": [
-        "definitions",
-        "integration",
-        "support"
-      ],
-      "guardrails_and_constraints": [],
-      "best_fit_scenarios": [
-        "General assistant"
-      ],
-      "is_documentation": false,
-      "size_bytes": 10424,
-      "size_tokens": 2606,
-      "source_hash": "B85B4F138187F7C603FD0114A36A5102",
-      "confidence": "medium",
-      "purpose_summary": "This is the complete, comprehensive catalog of ALL system prompts in the collection.",
       "key_capabilities": [],
       "output_format_hint": ""
     },
@@ -13823,27 +13753,6 @@
         "specialized instructions for specific tasks"
       ],
       "output_format_hint": ""
-    },
-    {
-      "id": "prompt_catalog_summary.md",
-      "title": "Prompt Catalog Summary",
-      "provider": "unknown",
-      "category": "system_prompt",
-      "subcategory": "general",
-      "persona": "| `xAI/grok-4.2.md` | Grok 4.2 Assistant | High | No | 4,446 | Witty, humorous responses with personality |",
-      "tools_or_integrations": [],
-      "guardrails_and_constraints": [],
-      "best_fit_scenarios": [
-        "General assistant"
-      ],
-      "is_documentation": false,
-      "size_bytes": 4517,
-      "size_tokens": 1129,
-      "source_hash": "BC9ACBE8EF841D2E26983B68C356EEB5",
-      "confidence": "medium",
-      "purpose_summary": "# Prompt Catalog Summary This catalog contains system prompts from various AI providers, organized by category for easy routing and selection. ## Catalog Statistics",
-      "key_capabilities": [],
-      "output_format_hint": "3. **Output Format**: Consider if structured output or conversational is needed"
     },
     {
       "id": "Qwen/qwen-3.6-plus.md",
